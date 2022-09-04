@@ -20,13 +20,13 @@ public class Main {
 
     public static String ageAndTemperature(int age, int temperature) {
         if (age > 20 && age < 45 && temperature > -20 && temperature < 30) {
-            return "Ìîæíî èäòè ãóëÿòü";
+            return "ĞœĞ¾Ğ¶Ğ½Ğ¾ Ğ¸Ğ´Ñ‚Ğ¸ Ğ³ÑƒĞ»ÑÑ‚ÑŒ";
         } else if (age < 20 && 0 < temperature && temperature < 28) {
-            return "Ìîæíî èäòè ãóëÿòü";
+            return "ĞœĞ¾Ğ¶Ğ½Ğ¾ Ğ¸Ğ´Ñ‚Ğ¸ Ğ³ÑƒĞ»ÑÑ‚ÑŒ";
         } else if (age < 45 || -10 < temperature && temperature < 25) {
-            return "Ìîæíî èäòè ãóëÿòü";
+            return "ĞœĞ¾Ğ¶Ğ½Ğ¾ Ğ¸Ğ´Ñ‚Ğ¸ Ğ³ÑƒĞ»ÑÑ‚ÑŒ";
         } else {
-            return "Îñòàâàéòåñü äîìà";
+            return "ĞÑÑ‚Ğ°Ğ²Ğ°Ğ¹Ñ‚ĞµÑÑŒ Ğ´Ğ¾Ğ¼Ğ°";
         }
 
     }
